@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_module/test1/TextDemo.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  // runApp(MyApp());
+  runApp(TextDemo());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -95,7 +99,10 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme
+                  .of(context)
+                  .textTheme
+                  .headline4,
             ),
           ],
         ),
